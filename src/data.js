@@ -384,6 +384,7 @@ export const staff = [
     image: Staff1,
     name: "Fr Fred Ogambi",
     job: "Parish Priest",
+    phone: "+254722601194",
     socials: [
       "https://instagram.com/",
       "https://twitter.com/",
@@ -396,6 +397,7 @@ export const staff = [
     image: Staff2,
     name: "Deacon Rodgers Omondi",
     job: "Deacon",
+    phone:"+25478883739",
     socials: [
       "https://instagram.com/",
       "https://twitter.com/",
@@ -408,6 +410,7 @@ export const staff = [
     image: Staff3,
     name: "Samuel Otieno Ochanda",
     job: "Parish Council Chairman",
+    phone:"+254721219180",
     socials: [
       "https://instagram.com/",
       "https://twitter.com/",
@@ -420,6 +423,7 @@ export const staff = [
     image: Staff4,
     name: "Nicholas Ouma",
     job: "Parish Council Secretary",
+    phone:"+25412345678",
     socials: [
       "https://instagram.com/",
       "https://twitter.com/",
@@ -432,6 +436,7 @@ export const staff = [
     image: Staff5,
     name: "Eunice Onani",
     job: "Parish Council Treasurer",
+    phone: "+25412345678",
     socials: [
       "https://instagram.com/",
       "https://twitter.com/",

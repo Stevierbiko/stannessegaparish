@@ -18,13 +18,14 @@ Patrick Lencioni
       </Header>
       <section className="staffs">
         <div className="container staffs__container">
-          {staff.map(({ id, image, name, job, socials }) => {
+          {staff.map(({ id, image, name, job, phone, email, socials }) => {
             return (
               <Staff
                 key={id}
                 image={image}
                 name={name}
                 job={job}
+                phone={phone}
                 socials={[
                   { icon: <AiFillInstagram />, link: socials[0] },
                   { icon: <AiOutlineTwitter />, link: socials[1] },
