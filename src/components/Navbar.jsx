@@ -1,13 +1,14 @@
+import React from "react";
 import { useState } from "react";
-import { Link, link, NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Logo from "../image/logo.png";
 import { links } from "..//data";
 import { FaBars } from "react-icons/fa";
-import {GrClose} from "react-icons/gr"
+import { GrClose } from "react-icons/gr";
 import "./Navbar.css";
 
 const Navbar = () => {
-    const [isNavShowing, setIsNavShowing] = useState(false);
+  const [isNavShowing, setIsNavShowing] = useState(false);
 
   return (
     <div>
@@ -23,8 +24,8 @@ const Navbar = () => {
               <li key={index}>
                 <NavLink
                   to={path}
-                  className={({ isActive }) => (isActive ? "active-nav" : 
-                  "")}onClick={() => setIsNavShowing(prev =>!prev)}
+                  className={({ isActive }) => (isActive ? "active-nav" : "")}
+                  onClick={() => setIsNavShowing((prev) => !prev)}
                 >
                   {" "}
                   {tag}
@@ -32,10 +33,11 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <button className="nav__navtoggle-btn" onClick={() => setIsNavShowing(prev =>!prev)}>
-            {
-                isNavShowing ? <GrClose/> : <FaBars/>
-            }
+          <button
+            className="nav__navtoggle-btn"
+            onClick={() => setIsNavShowing((prev) => !prev)}
+          >
+            {isNavShowing ? <GrClose /> : <FaBars />}
           </button>
         </div>
       </nav>

@@ -1,3 +1,4 @@
+import React from "react";
 import { GiGamepadCross } from "react-icons/gi";
 import { GiReceiveMoney } from "react-icons/gi";
 
@@ -397,7 +398,7 @@ export const staff = [
     image: Staff2,
     name: "Deacon Rodgers Omondi",
     job: "Deacon",
-    phone:"+25478883739",
+    phone: "+25478883739",
     socials: [
       "https://instagram.com/",
       "https://twitter.com/",
@@ -410,7 +411,7 @@ export const staff = [
     image: Staff3,
     name: "Samuel Otieno Ochanda",
     job: "Parish Council Chairman",
-    phone:"+254721219180",
+    phone: "+254721219180",
     socials: [
       "https://instagram.com/",
       "https://twitter.com/",
@@ -423,7 +424,7 @@ export const staff = [
     image: Staff4,
     name: "Nicholas Ouma",
     job: "Parish Council Secretary",
-    phone:"+25412345678",
+    phone: "+25412345678",
     socials: [
       "https://instagram.com/",
       "https://twitter.com/",
@@ -450,10 +451,7 @@ const Parish2 = require("./image/Parish2.jpeg");
 const Parish3 = require("./image/Parish3.jpeg");
 const Parish4 = require("./image/Parish4.jpeg");
 const Parish5 = require("./image/Parish5.jpeg");
-const Parish6 = require("./image/Parish5.jpeg");
-const Parish7 = require("./image/Parish5.jpeg");
-const Parish8 = require("./image/Parish5.jpeg");
-const Parish9 = require("./image/Parish5.jpeg");
+
 
 export const parish = [
   {

@@ -1,8 +1,12 @@
+import React from "react";
 import { useState } from "react";
 import SectionHead from "./SectionHead";
 import Card from "../UI/Card";
 import { ImQuotesLeft } from "react-icons/im";
-import { IoIosArrowDropleftCircle, IoIosArrowDroprightCircle } from "react-icons/io";
+import {
+  IoIosArrowDropleftCircle,
+  IoIosArrowDroprightCircle,
+} from "react-icons/io";
 
 import { testimonials } from "../data";
 
@@ -29,20 +33,30 @@ const Testimonials = () => {
   return (
     <section className="testimonials">
       <div className="container testimonials__container">
-        <SectionHead icon={ImQuotesLeft} title="Testimonial" className="testimonails__head" />
+        <SectionHead
+          icon={ImQuotesLeft}
+          title="Testimonial"
+          className="testimonails__head"
+        />
         <Card className="testimonial">
           <div className="testimonial__avatar">
-            <img src={avatar} alt="Photo of Eunice" />
+            <img src={avatar} alt="Eunice" />
           </div>
           <p className="testimonial__quote">{`"${quote}"`}</p>
           <h5>{name}</h5>
           <small className="testimonial__title">{job}</small>
         </Card>
         <div className="testimonials__btn-container">
-          <button className="testimonials__btn" onClick={prevTestimonialHandler}>
+          <button
+            className="testimonials__btn"
+            onClick={prevTestimonialHandler}
+          >
             <IoIosArrowDropleftCircle />
           </button>
-          <button className="testimonials__btn" onClick={nextTestimonialHandler}>
+          <button
+            className="testimonials__btn"
+            onClick={nextTestimonialHandler}
+          >
             <IoIosArrowDroprightCircle />
           </button>
         </div>

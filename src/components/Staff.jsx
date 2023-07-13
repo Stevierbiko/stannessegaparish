@@ -1,4 +1,5 @@
-import Card from '../UI/Card';
+import React from "react";
+import Card from "../UI/Card";
 
 const Staff = ({ image, name, job, phone, socials }) => {
   return (
@@ -21,4 +22,3 @@ const Staff = ({ image, name, job, phone, socials }) => {
 };
 
 export default Staff;
-

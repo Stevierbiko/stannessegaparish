@@ -1,3 +1,4 @@
+import React from "react";
 import Header from "../../components/Header";
 import HeaderImage from "../../image/banner.jpg";
 import StoryImage from "../../image/about1.jpeg";
@@ -17,7 +18,7 @@ function about() {
       <section className="about__story">
         <div className="container about__story-container">
           <div className="about__section-image">
-            <img src={StoryImage} alt="Story Image" />
+            <img src={StoryImage} alt="Story " />
           </div>
           <div className="about__section-content">
             <h1>Our Story</h1>
@@ -73,7 +74,7 @@ function about() {
             </p>
           </div>
           <div className="about__section-image">
-            <img src={VisionImage} alt="Vision Image" />
+            <img src={VisionImage} alt="Vision" />
           </div>
         </div>
       </section>
@@ -81,7 +82,7 @@ function about() {
       <section className="about__mission">
         <div className="container about__mission-container">
           <div className="about__section-image">
-            <img src={MissionImage} alt="Mission Image" />
+            <img src={MissionImage} alt="Mission" />
           </div>
           <div className="about__section-content">
             <h1>Our Mission</h1>

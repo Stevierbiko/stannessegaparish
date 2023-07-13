@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Header from "../../components/Header";
 import HeaderImage from "../../image/banner.jpg";
 import { parish } from "../../data";

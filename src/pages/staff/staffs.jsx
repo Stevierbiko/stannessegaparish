@@ -1,3 +1,4 @@
+import React from "react";
 import Header from "../../components/Header";
 import HeaderImage from "../../image/banner.jpg";
 import { staff } from "../../data";
@@ -13,8 +14,8 @@ const Staffs = () => {
   return (
     <>
       <Header title="Meet Our Team" image={HeaderImage}>
-      "The parish office should be a microcosm of what we want the whole parish to be."
-Patrick Lencioni
+        "The parish office should be a microcosm of what we want the whole
+        parish to be." Patrick Lencioni
       </Header>
       <section className="staffs">
         <div className="container staffs__container">

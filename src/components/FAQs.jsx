@@ -1,3 +1,5 @@
+import React from "react";
+
 import SectionHead from "./SectionHead";
 import { FaQuestion } from "react-icons/fa";
 import { faqs } from "../data";
@@ -8,7 +10,7 @@ const FAQs = () => {
     <section className="faqs">
       <div className="container faqs__container">
         <SectionHead
-          icon={<FaQuestion/>}
+          icon={<FaQuestion />}
           title="Becoming Catholic? GET ANSWERS HERE"
         />
 
