@@ -72,7 +72,10 @@
 }
 .values__image{
     filter: saturate(0.25);
-    transition: var(--transition);
+    transition: var(--transition);    
+}
+.values__image img{
+    border-radius: 0 3rem  0 3rem;
 }
 .values__image:hover{
     filter: saturate(1);

@@ -11,6 +11,7 @@ import Parish from "./pages/parish/parish";
 import Staffs from "./pages/staff/staffs";
 import Tithe from "./pages/tithe/tithe";
 import Navbar from "./components/Navbar";
+import Prayer from "./components/Prayer"
 import Footer from "./components/Footer";
 
 import Sacrament from "./pages/sacrament/sacrament";
@@ -29,6 +30,7 @@ const App = () => {
         <Route path="staffs" element={<Staffs />} />
         <Route path="tithe" element={<Tithe />} />
         <Route path="sacrament" element={<Sacrament />} />
+        <Route path ="prayer" element={<Prayer />}/>
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

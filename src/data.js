@@ -38,6 +38,10 @@ export const links = [
     path: "/parish",
   },
   {
+    tag: "Prayer",
+    path: "/prayer",
+  },
+  {
     tag: "Contact",
     path: "/contact",
   },
@@ -372,6 +376,34 @@ export const liturgy = [
     path: "/liturgy/888",
   },
 ];
+export const prayer = [
+  {
+    id: 1,
+    icon: <GiGamepadCross />,
+    title: "Catholic Prayers",
+    info: "God invites us into a relationship with Him that is both personal and communal. He speaks to us through His Son, Jesus Christ, the Word-made-flesh. Prayer is our response to God who is already speaking or, better yet, revealing Himself to us. Therefore, prayer is not merely an exchange of words, but it engages the whole person in a relationship with God the Father, through the Son, and in the Holy Spirit.",
+  },
+  {
+    id: 2,
+    icon: <GiGamepadCross />,
+    title: "The Rosary",
+    info: "'The Rosary, though clearly Marian in character, is at heart a Christocentric prayer. In the sobriety of its elements, it has all the depth of the Gospel message in its entirety, of which it can be said to be a compendium. It is an echo of the prayer of Mary, her perennial Magnificat for the work of the redemptive Incarnation which began in her virginal womb. With the Rosary, the Christian people sits at the school of Mary and is led to contemplate the beauty on the face of Christ and to experience the depths of his love. Through the Rosary the faithful receive abundant grace, as though from the very hands of the Mother of the Redeemer.''\"\n\n — From On the Most Holy Rosary (Rosarium Virginis Mariae)",
+  },
+  {
+    id: 3,
+    icon: <GiGamepadCross />,
+    title: "Eucharistic Devotion",
+    info: "Exposition of the Blessed Sacrament flows from the sacrifice of the Mass and serves to deepen our hunger for Communion with Christ and the rest of the Church.",
+  },
+  {
+    id: 4,
+    icon: <GiGamepadCross />,
+    title: "Rediscovering The Mass",
+    info: "Are you seeking to rediscover your friendship with Jesus? Haven't been to Mass in a while and wondering where to start? Start by getting to know Jesus again through prayer. It doesn't matter how long it's been since you have been to Mass. You are always invited to encounter Jesus in the Mass.\n\n\"Jesus said to them, 'I am the bread of life; whoever comes to me will never hunger, and whoever believes in me will never thirst.'\"\n\n- John 6:35",
+  },
+
+];
+
 
 const Staff1 = require("./image/Staff1.jpeg");
 const Staff2 = require("./image/Staff2.jpeg");

@@ -54,23 +54,23 @@ const Footer = () => {
           <h4>Permalinks</h4>
           <Link to="/about">About</Link>
           <Link to="/gallery">Gallery</Link>
-          <Link to="/staff">Staff</Link>
-          <Link to="/liturgy">Catholic Prayers</Link>
+          <Link to="/staffs">Staff</Link>
+          <Link to="/prayer">Catholic Prayers</Link>
           <Link to="/contact">Contact</Link>
         </article>
         <article>
           <h4>Useful Links</h4>
-          <Link to="/about">About</Link>
-          <Link to="/about">Daily Readings</Link>
-          <Link to="/about">Liturgy of the Hours</Link>
-          <Link to="/about">Order of Mass</Link>
-          <Link to="/about">Terms of Use</Link>
-          <Link to="/about">Strategic Plans</Link>
+          <Link to="/">Buletings</Link>
+          <Link to="https://bible.usccb.org/" target="_blank" rel="noreferrer noopener">Daily Readings</Link>
+          <Link to="https://www.usccb.org/prayer-and-worship/liturgy-of-the-hours"target="_blank" rel="noreferrer noopener">Liturgy of the Hours</Link>
+          <Link to="https://www.usccb.org/prayer-and-worship/the-mass/order-of-mass"target="_blank" rel="noreferrer noopener">Order of Mass</Link>
+          <Link to="https://www.usccb.org/beliefs-and-teachings/what-we-believe/catechism/catechism-of-the-catholic-church"target="_blank" rel="noreferrer noopener">Catechism of the Catholic Church</Link>
+          <Link to="/about"target="_blank" rel="noreferrer noopener">Strategic Plans</Link>
         </article>
         <article>
           <h4>Get In Touch</h4>
           <Link to="tel:+254722601194">Contact Us</Link>
-          <Link to="/about">Support</Link>
+          <Link to="tel:+254722601194">Support</Link>
         </article>
       </div>
       <div className="footer__copyright">
