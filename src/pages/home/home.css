@@ -44,6 +44,11 @@
 .main__header-image{
     position: relative;   
 }
+.main__header-image img{
+    width: 40rem;
+    height: 40rem;
+    border-radius: 50%;
+} 
 .main__header-right:hover .main__header-circle{
     filter: blur(15px);
 }
@@ -257,6 +262,10 @@ background: transparent;
     .main__header-circle{
         width: 16rem;
         height: 16rem;
+    }
+    .main__header-image img{
+        width: 14rem;
+        height: 14rem;
     }
     /* WORSHIP WITH US */
     .programs__wrapper{

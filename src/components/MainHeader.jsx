@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Link } from "react-router-dom";
-import Image from "../image/bg1.png";
+import Image from "../image/Parish1.jpeg";
 
 import "../pages/home/home.css";
 

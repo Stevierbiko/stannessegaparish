@@ -1,6 +1,6 @@
 import React from "react";
 
-import Image from "../image/Parish1.jpeg";
+import Image from "../image/church.jpg";
 import SectionHead from "./SectionHead";
 import { GiCutDiamond } from "react-icons/gi";
 import { values } from "../data";
