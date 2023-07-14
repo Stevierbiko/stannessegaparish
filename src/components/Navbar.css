@@ -23,7 +23,7 @@ nav{
     position: relative;
 }
 .logo{
-    width:7rem;
+    width:15rem;
     display: block;
 }
 .nav__links{
@@ -35,7 +35,7 @@ nav{
     transition: var(--transition);
 }
 .nav__links a:hover{
-    color: var(--color-white);
+    color: var(--button-color);
 }
 .active{
     position: relative;
@@ -56,6 +56,7 @@ nav{
 
 /* MEDIA QUERIES (medium and small screens) */
 @media screen and (max-width: 1024px){
+  
     .nav__navtoggle-btn{
         display: block;
         background: transparent;
@@ -77,9 +78,10 @@ nav{
     }
 
     .nav__links li{
+        background-color: var(--primary-color);
         height: 4rem;
         width: 100%;
-        box-shadow: -2rem 2rem 5rem rgba(0, 0, 0, 0.4);
+        box-shadow: 10px 10px 5px 0px rgba(227,201,178,0.75);
     }
     .nav__links li a{
         background-color: var(--primary-color-);
